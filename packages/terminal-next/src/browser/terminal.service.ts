@@ -4,7 +4,7 @@ import { Emitter, ILogger, Event } from '@opensumi/ide-core-common';
 import { OperatingSystem, OS } from '@opensumi/ide-core-common/lib/platform';
 import { Emitter as Dispatcher } from 'event-kit';
 import { AppConfig, electronEnv, PreferenceService } from '@opensumi/ide-core-browser';
-import { WSChannelHandler as IWSChanneHandler } from '@opensumi/ide-connection';
+import { WSChannelHandler as IWSChanneHandler } from '@opensumi/ide-connection/lib/browser';
 import {
   generateSessionId,
   ITerminalService,

@@ -83,6 +83,8 @@ export class MockWorker {
   postMessage(msg, transferList) {
     this.onmessage(msg, transferList);
   }
+
+  addEventlistener() {}
 }
 
 export class MessagePort {
